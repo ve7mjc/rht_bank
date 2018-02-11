@@ -1,26 +1,8 @@
-/*	RHT03-Example-Serial.cpp
-	Jim Lindblom <jim@sparkfun.com>
-	August 31, 2015
-    
-    Ported to Arduino by Shawn Hymel
-    October 28, 2016
-	https://github.com/sparkfun/SparkFun_RHT03_Arduino_Library
-	
-	This a simple example sketch for the SparkFunRHT03 Ardiuno
-	library.
-	
-	Looking at the front (grated side) of the RHT03, the pinout is as follows:
-	 1     2        3       4
-	VCC  DATA  No-Connect  GND
-	
-	Connect the data pin to Arduino pin D4. Power the RHT03 off the 3.3V bus.
-	
-	A 10k pullup resistor can be added to the data pin, though it seems to
-	work without it.
-	
-    Development environment specifics:
-	Arduino IDE v1.6.5
-	Distributed as-is; no warranty is given.  
+/*
+
+Teensy 3.1
+RHT03 x 1-8
+ 
 */
 
 #include <SparkFun_RHT03.h>
